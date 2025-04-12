@@ -1,8 +1,6 @@
 services:
   - type: web
     name: venomous-api
-    env: php
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: ""
-    rootDir: .
+    dockerfilePath: Dockerfile
