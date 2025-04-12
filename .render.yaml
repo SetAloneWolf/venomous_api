@@ -3,4 +3,4 @@ services:
     name: venomous-api
     env: docker
     plan: free
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./Dockerfile
